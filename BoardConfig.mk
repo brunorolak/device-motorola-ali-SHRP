@@ -46,7 +46,7 @@ TARGET_2ND_CPU_VARIANT := cortex-a53
 TARGET_USES_64_BIT_BINDER := true
 
 # Prebuilts
-TARGET_PREBUILT_KERNEL := device/motorola/ali/Image.gz-dtb
+TARGET_PREBUILT_KERNEL := $(DEVICE_TREE)/prebuilt/Image.gz-dtb
 
 # Kernel
 TARGET_KERNEL_ARCH := arm64
